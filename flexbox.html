@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        /* .box {
+            background: green;
+        }
+
+        .item {
+            background: red;
+            color: white;
+            padding: 20px;
+            border: 1px solid white;
+            font-size: 30px;
+            width: 300px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        header {
+            /* height: 200px; */
+            flex-grow: 1;
+            background: red;
+        }
+        main {
+            flex-grow: 1;
+        }
+
+        footer {
+            /* height: 300px;
+            background: red; */
+            flex-grow: 1;
+            background: red;
+        } */
+    </style>
+</head>
+<body>
+    <!-- <h1>Flexbox</h1>
+
+    <div>
+        <div class="box" style="height: 100vh;display: flex; flex-wrap: wrap;">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
+            <div class="item">9</div>
+            <div class="item">10</div>
+        </div>
+    </div>
+
+    <ul>
+        <li>uno</li>
+        <li>dos</li>
+    </ul> -->
+    <!-- <div class="wrapper">
+        <header>
+            header
+        </header>
+        <main>
+            main
+        </main>
+        <footer>
+            Footer
+        </footer>
+    </div> -->
+    <style>
+        .box2 {
+            display: flex;
+        }
+
+        .box2 .item {
+            flex-grow: 1;
+            color: white;
+            flex-basis: 100px;
+        }
+
+        .box2 .item:nth-child(even) {
+            background: red;
+        }
+
+        .box2 .item:nth-child(2) {
+            flex-grow: 2;
+        }
+
+        .box2 .item:nth-child(odd) {
+            background: blue;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+    </style>
+    <div class="box2" style="width: 500px;">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+    </div>
+</body>
+</html>
